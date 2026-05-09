@@ -93,6 +93,15 @@ a {
   outline: none;
 }
 
+.site-nav a[href="#proben"],
+.site-nav a[href="#repertoire"],
+.site-nav a[href="#kontakt"],
+#proben .eyebrow,
+#repertoire .eyebrow,
+#kontakt .eyebrow {
+  color: var(--red);
+}
+
 .nav-toggle {
   display: none;
   width: 42px;
