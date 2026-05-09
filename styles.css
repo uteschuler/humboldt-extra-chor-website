@@ -224,15 +224,15 @@ h3 {
   display: grid;
   gap: 1px;
   overflow: hidden;
-  border: 1px solid var(--line);
+  border: 1px solid #cfe1dc;
   border-radius: 8px;
-  background: var(--line);
+  background: #cfe1dc;
   box-shadow: var(--shadow);
 }
 
 .hero-panel div {
   padding: 22px;
-  background: rgba(255, 255, 255, 0.92);
+  background: var(--green-soft);
 }
 
 .hero-panel span,
@@ -316,14 +316,14 @@ h3 {
 }
 
 .info-card.accent {
-  color: #fff;
-  background: var(--green);
-  border-color: var(--green);
+  color: var(--ink);
+  background: var(--green-soft);
+  border-color: #cfe1dc;
 }
 
 .info-card.accent small,
 .info-card.accent a {
-  color: #fff;
+  color: var(--ink);
 }
 
 .info-card a {
