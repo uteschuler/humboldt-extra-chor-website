@@ -81,6 +81,7 @@ a {
 }
 
 .site-nav a {
+  color: var(--red);
   padding: 10px 12px;
   text-decoration: none;
   border-radius: 6px;
@@ -93,9 +94,6 @@ a {
   outline: none;
 }
 
-.site-nav a[href="#proben"],
-.site-nav a[href="#repertoire"],
-.site-nav a[href="#kontakt"],
 #proben .eyebrow,
 #repertoire .eyebrow,
 #kontakt .eyebrow {
