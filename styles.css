@@ -149,7 +149,7 @@ h1,
 h2,
 h3,
 p {
-  overflow-wrap: anywhere;
+  overflow-wrap: break-word;
 }
 
 h1,
@@ -158,6 +158,7 @@ h3 {
   margin: 0;
   line-height: 1.08;
   letter-spacing: 0;
+  hyphens: auto;
 }
 
 h1 {
@@ -467,6 +468,11 @@ h3 {
   .section {
     width: min(100% - 32px, 1120px);
     padding-block: 48px;
+  }
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.12;
   }
 
   .hero-actions {
